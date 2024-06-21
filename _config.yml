@@ -55,26 +55,26 @@ about_content: | # this will include new lines to allow paragraphs
   Experienced Software Engineer with over 7 years of expertise in Golang, Java, Docker, Kubernetes, and cloud-native technologies. Skilled in designing and implementing microservices architecture, I excel in leading high-performing teams and managing organizational change. With a strong background in global projects, I am passionate about driving innovation and efficiency in software development. Let's connect and explore opportunities to collaborate!
 
 content:
-  #title: Projects # Title for the section
-  #layout: list # Type of content section (list/text)
-  #content:
-  #  - layout: left
-  #    border: weak  # Value of `weak` will display a weak border below this item. # Any 
-  #                  # other value (or no value) means no border will be displayed
-  #    title: Project name
-  #    link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-  #    link_text: Link Text
-  #    additional_links:
-  #      - title:  Github page for project (eg. sproogen/modern-resume-theme)
-  #        icon: fab fa-github
-  #        url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-  #      - title:  Github page for project (eg. sproogen/modern-resume-theme)
-  #        icon: fab fa-github
-  #        url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-  #    quote: >
-  #      Short overview of the project (optional)
-  #    description: | # this will include new lines to allow paragraphs
-  #      Description about the work on/with the project
+  - title: Skills # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        # title: Project name
+        # link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #link_text: Link Text
+        #additional_links:
+        #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #    icon: fab fa-github
+        #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #    icon: fab fa-github
+        #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          Go, Java, Python, Docker, Kubernetes, Helm Charts, Git, Jenkins, Linux, Databases, Cloud Native, Microservices
+        description: | # this will include new lines to allow paragraphs
+          Description about the work on/with the project
   - title: Experience
     layout: list
     content:
@@ -125,7 +125,7 @@ content:
 
 # Footer
 footer_show_references: true
-  references_title: .
+  references_title: abc
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
