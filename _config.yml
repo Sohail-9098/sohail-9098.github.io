@@ -59,7 +59,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+        border:  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         # title: Project name
         # link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
@@ -71,40 +71,38 @@ content:
         #  - title:  Github page for project (eg. sproogen/modern-resume-theme)
         #    icon: fab fa-github
         #    url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Go, Java, Python, Docker, Kubernetes, Helm Charts, Git, Jenkins, Linux, Databases, Cloud Native, Microservices
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+        quote: Go, Java, Python, Docker, Kubernetes, Helm Charts, Git, Jenkins, Linux, Databases, Cloud Native, Microservices
+        description: Go, Java, Python, Docker, Kubernetes, Helm Charts, Git, Jenkins, Linux, Databases, Cloud Native, Microservices
   - title: Experience
     layout: list
     content:
-      - layout: right
+      - layout: left
         title: Ericsson AB, Sweden
         sub_title: Software Developer
         caption: November 2022 - present
         #link: Link to company (optional)
         #quote: >
         #  Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Working as a backend developer, developing core features, unit and integration tests also implementing e2e test framework to ensure test driven development, Using Helm charts to create and maintain Kubernetes resources, responsible of involving in all phases of SDLC, responsible providing adequate support to the maintenance team for high priority issues.
-      - layout: right
+        #description: | # this will include new lines to allow paragraphs
+        #  Working as a backend developer, developing core features, unit and integration tests also implementing e2e test framework to ensure test driven development, Using Helm charts to create and maintain Kubernetes resources, responsible of involving in all phases of SDLC, responsible providing adequate support to the maintenance team for high priority issues.
+      - layout: left
         title: Volvo Cars Corporation, Sweden
         sub_title: Consultant Software Engineer
         caption: May 2018 - October 2022
         #link: Link to company (optional)
         #quote: >
         #  Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Working as a backend developer, developing core features, unit and integration tests also implementing e2e test framework to ensure test driven development, Using Helm charts to create and maintain Kubernetes resources, responsible of involving in all phases of SDLC, responsible providing adequate support to the maintenance team for high priority issues.
-      - layout: right
+        #description: | # this will include new lines to allow paragraphs
+        #  Working as a backend developer, developing core features, unit and integration tests also implementing e2e test framework to ensure test driven development, Using Helm charts to create and maintain Kubernetes resources, responsible of involving in all phases of SDLC, responsible providing adequate support to the maintenance team for high priority issues.
+      - layout: left
         title: Jio Telecom, India
         sub_title: Consultant Software Developer
         caption: July 2017 - April 2018
         #link: Link to company (optional)
         #quote: >
         #  Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Working as a backend developer, developing core features, unit and integration tests also implementing e2e test framework to ensure test driven development, Using Helm charts to create and maintain Kubernetes resources, responsible of involving in all phases of SDLC, responsible providing adequate support to the maintenance team for high priority issues.
+        #description: | # this will include new lines to allow paragraphs
+        #  Working as a backend developer, developing core features, unit and integration tests also implementing e2e test framework to ensure test driven development, Using Helm charts to create and maintain Kubernetes resources, responsible of involving in all phases of SDLC, responsible providing adequate support to the maintenance team for high priority issues.
   - title: Education
     layout: list
     content:
