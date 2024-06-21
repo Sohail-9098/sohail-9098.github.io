@@ -125,7 +125,7 @@ content:
 
 # Footer
 footer_show_references: true
-  references_title: 
+  references_title: .
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
